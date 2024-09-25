@@ -1,0 +1,108 @@
+/* <style> */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+            background-blend-mode: multiply,multiply;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main {
+            scroll-behavior: smooth;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 91.5vh;
+        }
+
+        .attendance-container {
+            scroll-behavior: smooth;
+            height: 90%;
+            width: 90%;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .attendance-container > div {
+            scroll-behavior: smooth;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+
+        .attendance-container > div:last-child {
+            scroll-behavior: smooth;
+            width: 100%;
+            margin-left: auto;
+            overflow-y: scroll;
+        }
+        .navbar {
+            background-color: #1775F1;
+            /* background-color: teal; */
+        }
+        .navbar .nav-link, .navbar-brand{
+            color:black;
+        }
+        .thead{
+            background-color: #1775F1;
+            /* background-color: teal; */
+            position: sticky;
+            top: 0px;
+        }
+        .nav-item:hover{
+            background-color: wheat;
+        }
+        /* scroll table  08/27/2024/Tue Continuation...*/
+        table {
+            border: 1px solid black;
+
+            border-collapse: separate;
+            border-spacing: 0px;
+        }
+
+        th {
+            position: sticky;
+            top: 0px;
+
+            background-color: #1775F1;
+            /* background-color: teal; */
+            color: wheat;
+        }
+
+        .table-wrapper {
+            max-height: 445px;
+            overflow-y: scroll;
+
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        .outer-wrapper {
+            border: 1px solid black;
+            box-shadow: 0px 0px 3px black;
+
+            margin: 20px;
+            max-width: fit-content;
+        }
+        .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{
+            background-color: wheat;
+        }
+        /* .nav-link1, .nav-link2, .nav-link3, .nav-link4, .nav-link5, .nav-link6{
+            color: wheat;
+            font-size: 20px;
+        } */
+    /* </style> */
